@@ -44,7 +44,7 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
-import enumerablePropertySymbols from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-enumerable-property-symbols@esm/index.mjs';
+import enumerablePropertySymbols from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-enumerable-property-symbols@v0.2.1-esm/index.mjs';
 ```
 
 #### enumerablePropertySymbols( obj )
@@ -103,7 +103,7 @@ var symbols = enumerablePropertySymbols( obj );
 import defineProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-property@esm/index.mjs';
 import hasSymbolSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-symbol-support@esm/index.mjs';
 import Symbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-ctor@esm/index.mjs';
-import enumerablePropertySymbols from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-enumerable-property-symbols@esm/index.mjs';
+import enumerablePropertySymbols from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-enumerable-property-symbols@v0.2.1-esm/index.mjs';
 
 var hasSymbols = hasSymbolSupport();
 var symbols;
